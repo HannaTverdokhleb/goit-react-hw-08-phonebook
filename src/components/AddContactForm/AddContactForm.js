@@ -3,7 +3,7 @@ import { useState } from 'react';
 import shortid from 'shortid';
 import { addContact } from 'redux/contacts/operations';
 import { selectContacts } from 'redux/contacts/selectors';
-import { Box, Button, Input, FormLabel, FormControl } from '@chakra-ui/react';
+import { Box, Button, Input, FormLabel } from '@chakra-ui/react';
 
 
 export default function AddContactForm() {
